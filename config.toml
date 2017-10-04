@@ -1,0 +1,65 @@
+# Site settings
+baseurl = "https://son15.es/"
+languageCode = "en-us"
+title = "SON15 | Barcelona"
+theme = "hugo-smpl-theme"
+disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = "UA-97623391-2"
+
+[params]
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "La Cueva Barcelona"
+  description = "La Cueva presents: SON 15. The one and only real Breaking jam in Barcelona"
+
+  # Background
+  [params.background]
+    image = "assets/img/bg.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = false
+    image = "assets/img/logo.png"
+    alt = "BlackTie.co"
+    width = "100"
+
+  # Header section
+  [params.header]
+    enable = false
+    title = "BlackTie.co<br>SMPL Theme."
+
+  # Quote section
+  [params.quote]
+    enable = false
+    text = "Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy."
+
+  # Social icons section
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Instagram"
+    icon = "fa-instagram"
+    link = "https://www.instagram.com/son15_bcn/"
+
+  [[params.social]]
+    title = "Facebook"
+    icon = "fa-facebook"
+    link = "https://www.facebook.com/son15barcelona"
+
+  [[params.social]]
+    title = "Email"
+    icon = "fa-envelope"
+    link = "mailto:lacuevabcn@gmail.com"
