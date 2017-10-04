@@ -1,0 +1,7 @@
+hugo
+.DS_Store
+*~
+vendor/*/
+GoBuilds
+dist
+public

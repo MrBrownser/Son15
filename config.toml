@@ -22,6 +22,7 @@ googleAnalytics = "UA-97623391-2"
   # Background
   [params.background]
     image = "assets/img/bg.jpg"
+    mobileImage = "assets/img/bg-mobile.png"
 
     # Enable and set background fade speed
     [params.background.fade]
